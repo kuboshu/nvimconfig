@@ -3,6 +3,8 @@ require'keymaps'
 require'myfunction.sample'
 require'plugins'
 
+require'defxconfig'
+
 -- setup LSP
 -- require'lspconfig'.gopls.setup{}
 
