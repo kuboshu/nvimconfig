@@ -1,0 +1,6 @@
+vim.api.nvim_set_keymap('i', '<C-k>', '<ESC>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<C-h>', '<BS><DEL>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<C-k>', '<C-u>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<C-j>', '<C-d>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<C-:>', '$', {noremap = true})
+vim.api.nvim_set_keymap('n', '<C-a>', '0', {noremap = true})
